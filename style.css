@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(194, 221, 255); 
+    font-family: "Outfit", sans-serif; 
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+}
+.QR-card{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 25px;
+    padding: 2%;
+    width: 25%;
+    text-align: center;
+    background-color: aliceblue;
+
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    border-radius: 15px;
+    scale: 75%;
+}
