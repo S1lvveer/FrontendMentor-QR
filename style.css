@@ -16,7 +16,7 @@ body{
     
     border-radius: 25px;
     padding: 2%;
-    width: 35%;
+    width: 25%;
     text-align: center;
     background-color: aliceblue;
 
@@ -25,13 +25,14 @@ body{
 
 img{
     border-radius: 15px;
-    scale: 75%;
+    scale: 70%;
 }
 
 @media only screen and (max-width: 1000px) {
     .QR-card{
         width: 75%;
         font-size: 20px;
+        height: auto;
     }
 
     img{
