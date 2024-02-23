@@ -2,6 +2,7 @@
 body{
     background-color: rgb(194, 221, 255); 
     font-family: "Outfit", sans-serif; 
+    font-size: larger;
 }
 
 #wrapper{
@@ -15,7 +16,7 @@ body{
     
     border-radius: 25px;
     padding: 2%;
-    width: 25%;
+    width: 35%;
     text-align: center;
     background-color: aliceblue;
 
@@ -25,4 +26,15 @@ body{
 img{
     border-radius: 15px;
     scale: 75%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .QR-card{
+        width: 75%;
+        font-size: 20px;
+    }
+
+    img{
+        scale: 80%;
+    }
 }
